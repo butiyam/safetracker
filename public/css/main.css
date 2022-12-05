@@ -1,0 +1,107 @@
+.primary1 { color: var(--nextui-colors-primaryLight); }
+.primary2 { color: var(--nextui-colors-primary); }
+.success1 { color: var(--nextui-colors-successLight); }
+.success2 { color: var(--nextui-colors-success); }
+.warning1 { color: var(--nextui-colors-warningLight); }
+.warning2 { color: var(--nextui-colors-warning); }
+.error1   { color: var(--nextui-colors-errorLight); }
+.error2   { color: var(--nextui-colors-error); }
+
+.home-header {
+    padding: 100px 0;
+    background: #153D77;
+    color: white !important;
+}
+
+.numSuffix {
+    font-size: 0.9em;
+}
+
+.content {
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+
+.address-input {
+    margin-left: 10px;
+}
+
+.inner-card {
+    background-color: var(--nextui-colors-background);
+    margin-bottom: 10px;
+    border-radius: .4rem;
+}
+
+.priceSub {
+    display: inline-block;
+    padding: 0px 3px;
+    font-size: 0.7em;
+}
+
+.badge {
+    display: inline-block;
+    font-family: monospace;
+    position: relative;
+    padding: 2px 5px;
+    font-size: 10px;
+    background-color: var(--nextui-colors-background);
+    color: var(--nextui-colors-primary);
+    
+}
+
+.nextui-collapse-title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nextui-backdrop-layer-blur {
+    backdrop-filter: saturate(180%) blur(4px);
+}
+
+.form-container {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.hide-xs {
+    background: transparent
+}
+
+.token-table {
+    padding-right: 50px;
+}
+@media(max-width: 960px) {
+    .token-table {
+        padding-right: 0px;
+    }
+    .form-container {
+        margin-right: 0px;
+    }
+    .address-input {
+        margin-left: 0;
+    }
+    .hide-xs {
+        display: none !important;
+    }
+}
+
+.spinnyboi {
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}

@@ -1,0 +1,19 @@
+@import url(elements/scrollbar.css);
+@import url(elements/navbar.css);
+@import url(elements/footer.css);
+@import url(elements/table.css);
+@import url(elements/utilities.css);
+
+@font-face { font-family: "Nunito"; src: url('../fonts/Nunito.ttf'); }
+@font-face { font-family: "Montserrat"; src: url('../fonts/Montserrat.ttf'); }
+@font-face { font-family: "Raleway"; src: url('../fonts/Raleway.ttf'); }
+@font-face { font-family: "Inter"; src: url('../fonts/Inter.ttf'); }
+
+html, body {
+    min-height: 100vh;
+    font-size: 14px;
+}
+
+body {
+    
+}
